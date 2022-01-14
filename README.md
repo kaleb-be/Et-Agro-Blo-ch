@@ -18,7 +18,7 @@ The last part concerns the customer who enters the supermarket for his purchases
 Download the source code then install the necessary node packages via 
 
 `npm install`
-run ganache (the RPC network is:  https://127.0.0.1:8545)
+run ganache (the RPC network is:  https://127.0.0.1:7545)
 configure the ethereum network on metamask and add its accounts.
 run the project with 
 
