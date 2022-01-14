@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EtAgro | Home </title>
+    <link rel="stylesheet" type="text/css" href="./src/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./src/style.css">
+</head>
+
+<body>
+    <canvas class="background"></canvas>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <img src="./src/bootstrap-icons/flower1.svg" style="width:50px; height:50px; display: table-cell; vertical-align: middle; margin-left: 195px; margin-top: 169px;">
+                <br>
+                <h4 style="margin-left:166px; margin-top: -21px;" class="text-black">EtAgro</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12" style="width: 922px; margin-top: 15px;">
+                <div class="card shadow p-3 mb-5" style="border: none; background-color:#000000a8">
+                    <div class="row" style="margin-bottom: 10px;">
+                        <div class="col-4">
+                            <img src="./src/bootstrap-icons/robot.svg" class="white" style="width:40px; height:40px; color:white; margin-left: 352px;">
+                        </div>
+                        <div class="col-8">
+                            <h3 style="margin-left:118px" class="text-white">You are:</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <a href="agri.html" style="color: white; text-decoration: none;" target="_blank">
+                                <div class="card shadow" style="width: 250px; height: 105px; background-color: #44a54feb; border: none">
+                                    <div class="row" style="margin-top: 26px;">
+                                        <div class="col-4" style="margin-left:25px;">
+                                            <img src="./src/bootstrap-icons/farm.svg" style="width:50px; height: 50px; margin-top: 8px; margin-left: 11px;">
+
+                                        </div>
+                                        <div class="col-8" style="margin-right: -35px; margin-top: 15px;">
+                                            Agriculture
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a href="market.html" style="color: white; text-decoration: none;" target="_blank">
+                                <div class="card shadow" style="width: 250px; height: 105px; background-color: #0b2e7ceb; border: none">
+                                    <div class="row" style="margin-top: 26px;">
+                                        <div class="col-4" style="margin-left:25px;">
+                                            <img src="./src/bootstrap-icons/market.svg" style="width:50px; height: 50px; margin-top: 5px; margin-left: 10px;">
+                                        </div>
+                                        <div class="col-8" style="margin-right: -35px; margin-top: 15px;">
+                                            Supermarket
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a href="client.html" style="color: white; text-decoration: none;" target="_blank">
+                                <div class="card shadow" style="width: 250px; height: 105px; background-color: #f3b609eb; border: none">
+                                    <div class="row" style="margin-top: 26px;">
+                                        <div class="col-4" style="margin-left:25px;">
+                                            <img src="./src/bootstrap-icons/emoji-sunglasses.svg" style="width:50px; height: 50px; margin-top: 8px; margin-left: 11px;">
+                                        </div>
+                                        <div class="col-8" style="margin-right: -35px; margin-top: 15px;">
+                                            Buyer
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./src/particles.js"></script>
+
+<script type="text/javascript">
+    window.onload = function() {
+        Particles.init({
+            selector: '.background',
+            connectParticles: true,
+            maxParticles: 100,
+        });
+    };
+</script>
+
+</html>
